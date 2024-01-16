@@ -50,7 +50,6 @@ padding: 15px;
 }
 .find-now{
 text-align: center;
-font-style: normal;
 font-weight: 700;
 border-radius: 8px;
 background: #FF5400;
@@ -426,4 +425,5 @@ left: 10px;
     top: 750px;
     left: 200px;
 }
+
 
