@@ -31,15 +31,16 @@ text-align: center;
 }
 .where-go{
     display: flex;
-    text-align: center;
+    justify-content: center;
     gap: 20px;
     padding: 50px;
-    width: 174px;
+    width: 700px;
 height: 52px;
 
 
 }
 .wws{
+    width: 700px;
     border-radius: 8px;
 background: #FFF;
 border: 0;
@@ -391,38 +392,38 @@ padding: 200px;
 .Indonesia{
     
     position: relative;
-    left: 1120px;
+    left: 920px;
     top: 150px;
 }
 .maldibs{
     
 position: relative;
-left: 400px;
+left: 200px;
 top: 150px;
 }
 .sri{
 position: relative;
 top: 470px;
-left: 180px;
+left: 10px;
 }
 .north{
     position: relative;
     top: 450px;
-    left: 560px;
+    left: 360px;
 }
 .kashmir{
     position: relative;
     top: 470px;
-    left: 820px;
+    left: 670px;
 }
 .bd{
     position: relative;
     top: 750px;
-    right: 90px;
+    right: 240px;
 }
 .bandarban{
     position: relative;
     top: 750px;
-    left: 400px;
+    left: 200px;
 }
 
