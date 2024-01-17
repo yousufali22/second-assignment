@@ -13,6 +13,8 @@
     display: flex;
     gap: 20px;
 }
+
+
 .main-container{
     background-image: url(Images/Group13.png);
     background-repeat: no-repeat;
@@ -33,14 +35,23 @@ text-align: center;
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
+    padding: 20px 100px;
     width: 700px;
 height: 52px;
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 100px;
+margin-left: 150px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+
+
 
 
 }
 .wws{
-    width: 700px;
+    width: 140px;
     border-radius: 8px;
 background: #FFF;
 border: 0;
@@ -49,7 +60,8 @@ text-align: justify;
 padding: 15px;
 }
 .find-now{
-text-align: center;
+    width: 140px;
+height: 52px;
 font-weight: 700;
 border-radius: 8px;
 background: #FF5400;
@@ -372,7 +384,7 @@ padding: 200px;
 }
 .social{
     position: relative;
-    left: 37%;
+    left: 35%;
 }
 .all-rigths{
     text-align: center;
@@ -424,6 +436,78 @@ left: 10px;
     position: relative;
     top: 750px;
     left: 200px;
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .where-go{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .main-container{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .div-content{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .rectangle5{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .hotel{
+        flex-direction: column;
+        height: auto;
+        width: auto;  
+    }
+    .price-content{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .section-containe{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .section-container{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .rectagle4-flex{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .garden-1st{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .footer-colom{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .areyou{
+        flex-direction: column;
+        height: auto;
+        width: auto; 
+    }
+    
+    .social{
+        flex-direction: column;
+        height: auto;
+        width: auto; 
+    }
+   
+    
+    
+    
 }
 
 
